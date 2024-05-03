@@ -18,20 +18,20 @@ export default function App() {
   }
 
   const restar = () => {
-    let suma = parseFloat(numero1) - parseFloat(numero2);
-    setResultado(suma)
+    let restar = parseFloat(numero1) - parseFloat(numero2);
+    setResultado(restar)
     //Alert.alert("El resultado de la suma es: " + suma)
   }
 
   const multiplicar = () => {
-    let suma = parseFloat(numero1) * parseFloat(numero2);
-    setResultado(suma)
+    let mult = parseFloat(numero1) * parseFloat(numero2);
+    setResultado(mult)
     //Alert.alert("El resultado de la suma es: " + suma)
   }
 
   const division = () => {
-    let suma = parseFloat(numero1) / parseFloat(numero2);
-    setResultado(suma)
+    let div = parseFloat(numero1) / parseFloat(numero2);
+    setResultado(div)
     //Alert.alert("El resultado de la suma es: " + suma)
   }
 
